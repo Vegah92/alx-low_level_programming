@@ -9,12 +9,14 @@ int main(void)
 char a;
 int b;
 long int c;
+long long int e;
 float d;
 
-printf("Size of a char: %zu byte(s)", sizeof(a));
-printf("size of int: %zu bytes(s)", sizeof(b));
-printf("size of long int: %zu bytes(s)", sizeof(c));
-printf("size of float: %zu bytes(s)", sizeof(d));
+printf("Size of a char: %zu byte(s)\n", sizeof(a));
+printf("size of int: %zu bytes(s)\n", sizeof(b));
+printf("size of long int: %zu bytes(s)\n", sizeof(c));
+printf("size of long int: %zu bytes(s)\n", sizeof(e));
+printf("size of float: %zu bytes(s)\n", sizeof(d));
 
 
 return (0);

@@ -7,23 +7,17 @@
  */
 int main(void)
 {
-int word;
-word = '_';
-putchar(word);
-word = 'p';
-putchar(word);
-word = 'u';
-putchar(word);
-word = 't';
-putchar(word);
-word = 'c';
-putchar(word);
-word = 'h';
-putchar(word);
-word = 'a';
-putchar(word);
-word = 'r';
-putchar(word);
+
+
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
 return (0);
 }

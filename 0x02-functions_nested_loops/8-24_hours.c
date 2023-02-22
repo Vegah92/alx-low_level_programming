@@ -1,4 +1,4 @@
- #include <stdio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  *jack_bauer - Entry point
@@ -47,10 +47,3 @@ while (h2 <= 2)
 }
 }
 
-
-
-
-
-
-
-}

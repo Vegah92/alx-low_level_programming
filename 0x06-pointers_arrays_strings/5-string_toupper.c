@@ -3,7 +3,7 @@
 /**
  *string_toupper - Entry point
  *Description:A function that convert letters to upper case
- *Return : upper case character.
+ *Return: word
  *@word:function parameter
  */
 
@@ -19,4 +19,5 @@ char *string_toupper(char *word)
 	word[i] = word[i] - 32;
 	}
 	}
+	return (word);
 }

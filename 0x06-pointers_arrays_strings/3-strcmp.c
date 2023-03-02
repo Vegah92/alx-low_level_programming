@@ -3,7 +3,9 @@
 /**
  *_strcmp - Entry point
  *Description:A function thats compares strings
- *Return: 0 
+ *Return:0
+ *@s1 : function parameter
+ *@s2 : function parameter 2
  */
 
 int _strcmp(char *s1, char *s2)

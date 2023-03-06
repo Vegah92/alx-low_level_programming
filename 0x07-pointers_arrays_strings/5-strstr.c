@@ -2,8 +2,8 @@
 
 /**
  *_strstr - Entry point
- *@haystac: function parameter
- *@needle: function parameters
+ *@haystack:parameter
+ *@needle:function parameters
  *Description:A function that locates a substring
  *Return:Always 0 (Success)
  */

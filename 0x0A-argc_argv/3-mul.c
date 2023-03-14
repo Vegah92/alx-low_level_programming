@@ -22,10 +22,11 @@ int main(int argc, char *argv[])
 
 		}
 		printf("%d\n", j);
+		return (0);
 	}
 	else
 	{
 		printf("error\n");
+		return (1);
 	}
-	return (0);
 }

@@ -9,7 +9,7 @@
  * Return:0
  */
 
-int **alloc_grid(int width, int height);
+int **alloc_grid(int width, int height)
 {
 	int **b;
 	int a, y;
@@ -26,16 +26,16 @@ int **alloc_grid(int width, int height);
 				{
 				for (; a >= 0; a++)
 				{
-				free(b[a])
-				free(b)
+				free(b[a]);
+				free(b);
 				return (NULL);
 				}
 				}
 				}
-			for (a = 0; a < height; a++
+			for (a = 0; a < height; a++)
 				{
 				for (y = 0; y < width; y++)
-				b[a][y] = 0
+				b[a][y] = 0;
 				}
 				return (b);
 }

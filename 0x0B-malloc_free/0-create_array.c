@@ -6,7 +6,7 @@
  * create_array - entry  point
  * @size:function parameters
  * @c:parameters
- * Description:function that creates an array of chars, and initializes it with a specific char
+ * Description:function that creates an array using malloc
  * Return:array
  */
 

@@ -1,5 +1,4 @@
-#include <stlib.h>
-#include <string.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -35,8 +34,8 @@ while (n < st2 && a < (st1 + n))
 m[a++] = s2[b++];
 while (n >= st2 && a < (st1 + st2))
 m[a++] = s2[b++];
+while (n >= st2 && a < (st1 + st2))
+m[a++] = s2[b++];
 m[a] = '\0';
 return (m);
 }
-
-

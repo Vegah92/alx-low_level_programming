@@ -8,7 +8,7 @@
 *Description:function that creates an array of integers
 *Return:Array
 */
-int *array_range(int min, int max);
+int *array_range(int min, int max)
 {
 int *tr;
 int a, size;

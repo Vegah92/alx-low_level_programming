@@ -25,7 +25,7 @@ return (NULL);
 
 for (a = 0; min <= max; a++)
 
-tr[i] = min++;
+tr[a] = min++;
 
 return (tr);
 }

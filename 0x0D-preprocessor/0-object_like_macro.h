@@ -1,0 +1,6 @@
+#ifndef 0-OBJECT_LIKE_MACRO_FILE
+#define 0-OBJECT_LIKE_MACRO_FILE
+
+#define SIZE 1024
+
+#endif
